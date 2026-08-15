@@ -1,0 +1,46 @@
+# Dependencies & build output
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# Environment variables (contains secrets - never commit)
+.env
+.env*.local
+
+# Databases & audio (runtime data, may contain leads/call recordings)
+*.db
+*.sqlite
+*.wav
+*.mp3
+
+# TypeScript build info
+*.tsbuildinfo
+
+# v0 sandbox internal files
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+.snowflake/
+.v0-trash/
+.vercel/
+
+# Local tooling
+.opencode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
